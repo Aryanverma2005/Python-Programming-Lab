@@ -1,0 +1,6 @@
+n=int(input())
+a=input()
+p=list(map(int, a.split()))
+print(p)
+p.sort()
+print(p[-2])
